@@ -26,7 +26,7 @@ Cette commande :
 3. Lance un conteneur avec toutes les bibliothèques nécessaires pour exécuter l'API.
 
 ### 3. Tester l'API
-Utilisez le script `test.sh` pour vérifier que l'API fonctionne correctement :
+Utilisez le script `test.sh` pour vérifier que l'API fonctionne correctement dans "docker exec -it backend zsh" :
 ```bash
 chmod +x test.sh
 ./test.sh

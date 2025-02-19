@@ -114,27 +114,27 @@ curl -X GET http://localhost:5000/api/status
 
 **Produits**
 
-POST	/api/products	Ajouter un produit
-GET	/api/products	Récupérer tous les produits
-GET	/api/products/:id	Récupérer un produit par ID
-PUT	/api/products/:id	Modifier un produit
-DELETE	/api/products/:id	Supprimer un produit
+- POST	/api/products	Ajouter un produit
+- GET	/api/products	Récupérer tous les produits
+- GET	/api/products/:id	Récupérer un produit par ID
+- PUT	/api/products/:id	Modifier un produit
+- DELETE	/api/products/:id	Supprimer un produit
 
 **Clients**
 
-POST	/api/customers	Ajouter un client
-GET	/api/customers	Récupérer tous les clients
-GET	/api/customers/:id	Récupérer un client par ID
-PUT	/api/customers/:id	Modifier un client
-DELETE	/api/customers/:id	Supprimer un client
+- POST	/api/customers	Ajouter un client
+- GET	/api/customers	Récupérer tous les clients
+- GET	/api/customers/:id	Récupérer un client par ID
+- PUT	/api/customers/:id	Modifier un client
+- DELETE	/api/customers/:id	Supprimer un client
 
 **Commandes**
 
-POST	/api/orders	Ajouter une commande
-GET	/api/orders	Récupérer toutes les commandes
-GET	/api/orders/:id	Récupérer une commande par ID
-PUT	/api/orders/:id	Modifier une commande
-DELETE	/api/orders/:id	Supprimer une commande
+- POST	/api/orders	Ajouter une commande
+- GET	/api/orders	Récupérer toutes les commandes
+- GET	/api/orders/:id	Récupérer une commande par ID
+- PUT	/api/orders/:id	Modifier une commande
+- DELETE	/api/orders/:id	Supprimer une commande
 
 
 ## Arrêter et Nettoyer les Conteneurs

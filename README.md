@@ -44,7 +44,8 @@ curl -X GET http://localhost:5000/api/status
 - **Node.js** avec **Express.js** pour le serveur backend
 - **MongoDB** pour la base de données
 - **Docker** pour la gestion des conteneurs
-- **Shell Scripting** (`run.sh` et `test.sh`) pour automatiser les tâches
+- **docker-compose.yml** pour le  settup du projet
+- **test.sh** pour tester les routes
 
 ## Structure du projet
 ```

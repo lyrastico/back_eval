@@ -28,7 +28,6 @@ Cette commande :
 ### 3. Tester l'API
 Utilisez le script `test.sh` pour vérifier que l'API fonctionne correctement dans "docker exec -it backend zsh" :
 ```bash
-chmod +x test.sh
 ./test.sh
 ```
 Ou testez manuellement avec `cURL` :

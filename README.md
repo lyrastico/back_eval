@@ -19,12 +19,9 @@ Assurez-vous d'avoir installé :
 - [cURL](https://curl.se/) (pour tester l'API en ligne de commande)
 
 ### 2. Lancer le projet
-Exécutez le script `run.sh` pour démarrer les conteneurs Docker :
-```bash
-chmod +x run.sh
-./run.sh
-```
-Ce script :
+Exécutez la commande "docker-compose up --build" pour démarrer les conteneurs Docker :
+
+Cette commande :
 1. Crée un réseau Docker.
 2. Lance un conteneur MongoDB.
 3. Lance un conteneur avec toutes les bibliothèques nécessaires pour exécuter l'API.

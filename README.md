@@ -8,7 +8,6 @@ Ce projet fournit un backend d'API utilisant **Express.js** et **MongoDB**, avec
 - **MongoDB** : Base de données NoSQL pour stocker les informations.
 - **Docker** : Gestion automatisée des conteneurs pour un déploiement facile.
 - **Scripts Bash** : 
-  - `run.sh` : Automatisation de la création du réseau et des conteneurs.
   - `test.sh` : Vérification du bon fonctionnement de l'API.
 
 ## Installation et Démarrage
